@@ -3,7 +3,23 @@
     flex-direction: column;
 }
 
+.links, .left-box-text-2 {
+    color: #e5e7eb;
+}
+
 .body-1 {
     background-color: #1f2937;
     color: #ffffff;
+}
+
+.body-2 {
+    background-color: #ffffff;
+}
+
+.body-3 {
+    background-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #ffffff;
 }
