@@ -2,10 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Hero, Calibri, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .links, .left-box-text-2 {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .body-1 {
@@ -22,10 +29,30 @@
 
 ul {
     display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
 }
 
 .body-1-content {
     display: flex;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.left-box-text-1 {
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.left-box-text-2 {
+
 }
 
 .body-2 {
