@@ -1,6 +1,7 @@
 .body {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .links, .left-box-text-2 {
@@ -10,6 +11,21 @@
 .body-1 {
     background-color: #1f2937;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+.body-1-content {
+    display: flex;
 }
 
 .body-2 {
