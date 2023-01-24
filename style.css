@@ -51,8 +51,15 @@ li {
     font-weight: 1000;
 }
 
-.left-box-text-2 {
-
+.header-button {
+    width: 110px;
+    flex: 0 1 0;
+    padding: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    margin: 10px;
+    border-radius: 8px;
+    border: 0px;
 }
 
 .body-2 {
