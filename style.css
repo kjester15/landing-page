@@ -1,0 +1,9 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-1 {
+    background-color: #1f2937;
+    color: #ffffff;
+}
