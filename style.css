@@ -4,7 +4,7 @@ body{
 }
 
 .body {
-    font-family: sans-serif;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
 .logo, .left-box-text-1 {
@@ -33,7 +33,7 @@ body{
     justify-content: space-between;
     margin-bottom: 50px;
     margin-top: 15px;
-    width: 1200px;
+    width: 900px;
 }
 
 ul {
@@ -51,13 +51,15 @@ li {
 .body-1-content {
     display: flex;
     padding: 50px;
-    width: 1200px;
+    width: 900px;
 }
 
 .left-box {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 20px;
+    justify-content: center;
 }
 
 .left-box-text-1 {
@@ -65,9 +67,12 @@ li {
     font-weight: 600;
 }
 
-.right-box {
+.right-image {
     flex: 1;
     background-color: #a1a1a1;
+    width: 100px;
+    height: auto;
+    margin: 20px;
 }
 
 .header-button {
