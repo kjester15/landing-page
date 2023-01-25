@@ -4,7 +4,10 @@ body{
 }
 
 .body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', 'Helvetica', sans-serif;
+    min-height: 100vh;
 }
 
 .logo, .left-box-text-1 {
@@ -102,4 +105,9 @@ li {
 .footer {
     background-color: #1f2937;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 60px;
 }
