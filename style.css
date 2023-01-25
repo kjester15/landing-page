@@ -17,7 +17,7 @@ body{
 }
 
 .links, .left-box-text-2 {
-    color: #e5e7eb;
+    color: #c0c0c0;
     font-size: 18px;
 }
 
@@ -25,12 +25,15 @@ body{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    margin-top: 15px;
+    width: 1200px;
 }
 
 ul {
@@ -47,16 +50,24 @@ li {
 
 .body-1-content {
     display: flex;
+    padding: 50px;
+    width: 1200px;
 }
 
 .left-box {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .left-box-text-1 {
     font-size: 48px;
     font-weight: 600;
+}
+
+.right-box {
+    flex: 1;
+    background-color: #a1a1a1;
 }
 
 .header-button {
