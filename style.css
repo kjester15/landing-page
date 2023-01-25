@@ -96,6 +96,17 @@ li {
 
 .body-2 {
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-2-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.boxes {
+    display: flex;
 }
 
 .body-3 {
