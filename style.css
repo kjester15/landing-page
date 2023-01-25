@@ -19,7 +19,11 @@ body{
     font-weight: 500;
 }
 
-.links, .left-box-text-2 {
+a {
+    text-decoration: none;
+}
+
+a, .left-box-text-2 {
     color: #c0c0c0;
     font-size: 18px;
 }
