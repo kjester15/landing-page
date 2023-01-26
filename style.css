@@ -182,16 +182,35 @@ li {
     padding-left: 80px;
     padding-right: 80px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .body-4-text {
     display: flex;
     flex-direction: column;
-    background-color: #a1a1a1;
+}
+
+.action-text {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.signup-text {
+    color: #c0c0c0;
 }
 
 .footer-button {
-    
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 15px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .footer {
