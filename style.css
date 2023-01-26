@@ -39,8 +39,8 @@ a, .left-box-text-2 {
     justify-content: space-between;
     margin-bottom: 50px;
     margin-top: 15px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     flex: 1 1 0;
 }
 
@@ -58,15 +58,18 @@ li {
 
 .body-1-content {
     display: flex;
-    padding: 50px;
-    width: 900px;
+    align-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex: 1;
+    margin-bottom: 70px;
 }
 
 .left-box {
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
     justify-content: center;
+    flex: 1;
 }
 
 .left-box-text-1 {
