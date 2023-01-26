@@ -106,7 +106,7 @@ li {
 }
 
 .body-2-text {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
     margin: 30px;
     align-self: center;
@@ -132,6 +132,7 @@ li {
     text-align: center;
     width: 140px;
     font-size: 14px;
+    color: #c0c0c0;
 }
 
 .body-image {
@@ -144,6 +145,27 @@ li {
 
 .body-3 {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-3-container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 80px;
+}
+
+.body-3-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
 }
 
 .body-4 {
