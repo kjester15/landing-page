@@ -176,8 +176,8 @@ li {
 .body-4-container {
     background-color: #3882f6;
     margin: 80px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 50px;
     padding-left: 80px;
     padding-right: 80px;
@@ -197,7 +197,7 @@ li {
 }
 
 .signup-text {
-    color: #c0c0c0;
+    color:#e5e7eb
 }
 
 .footer-button {
