@@ -170,6 +170,28 @@ li {
 
 .body-4 {
     background-color: #ffffff;
+    color:#f9faf8
+}
+
+.body-4-container {
+    background-color: #3882f6;
+    margin: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+}
+
+.body-4-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #a1a1a1;
+}
+
+.footer-button {
+    
 }
 
 .footer {
